@@ -1,22 +1,21 @@
-<script setup>
-
-</script>
-
 <template>
- 
-  <div class="bg-greeb-400 h-screen">
-    <navbar />
+  <div id="app">
+    <Portfolio />
   </div>
 </template>
 
 <script>
-import navbar from "./components/navbar.vue";
+import Portfolio from './components/profile.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    navbar,
-  },
-};
-
+    Portfolio
+  }
+}
 </script>
+
+<style>
+/* Add global styles here */
+</style>
+
